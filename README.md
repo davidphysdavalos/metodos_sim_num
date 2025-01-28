@@ -20,7 +20,9 @@
 * Uso de librerías de análisis de datos.
 * Uso de librerías de graficación.
 
-![](logo.png)
+<div style="text-align: center;">
+  <img src="logo.png" alt="Logo" style="width: 50%;">
+</div>
 
 
 ## Herramientas que se utilizarán.
