@@ -4,6 +4,8 @@ module herramientas
 
 export original_integer, base_2, custom_unique
 
+using LinearAlgebra
+
 @doc "original integer input: list of binary digits output: integer"
 function original_integer(list)
     return parse(Int, join(list); base=2)
@@ -18,6 +20,7 @@ function base_2(integer; pad= nothing)
     end
 end
 
+tolerance=1e-10
 function is_approx_equal(x, y)
     return norm(x - y) < tolerance
 end
